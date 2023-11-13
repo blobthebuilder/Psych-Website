@@ -1,0 +1,629 @@
+header {
+  text-align: center;
+  background-color: aliceblue;
+  border-radius: 15px;
+}
+body {
+  background-color: #dcdcdc;
+}
+
+.landingPage {
+  background-color: aliceblue;
+  text-align: center;
+  font-size: 28px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75%;
+  padding: 0px 100px;
+  border-radius: 15px;
+}
+
+.attentionCheck,
+.correctAttentionCheck,
+.incorrectAttentionCheck {
+  background-color: aliceblue;
+  text-align: center;
+  font-size: 28px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75%;
+  padding: 0px 100px;
+  border-radius: 15px;
+}
+
+.consentForm {
+  background-color: aliceblue;
+  text-align: center;
+  font-size: 28px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75%;
+  padding: 0px 100px;
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+.generalInstructions2 {
+  background-color: aliceblue;
+  text-align: center;
+  font-size: 28px;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75%;
+  padding: 0px 100px;
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+
+.generalInstructions1,
+.generalInstructions3 {
+  background-color: aliceblue;
+  text-align: center;
+  font-size: 28px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75%;
+  padding: 0px 100px;
+  border-radius: 15px;
+}
+
+.introduction {
+  background-color: aliceblue;
+  text-align: center;
+  font-size: 28px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75%;
+  padding: 0px 100px;
+  border-radius: 15px;
+}
+.submitPage,
+.loading {
+  background-color: aliceblue;
+  text-align: center;
+  font-size: 28px;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75%;
+  padding: 0px 100px;
+  border-radius: 15px;
+}
+.title {
+  font-family: "Lora", sans-serif;
+}
+.header {
+  font-size: 20px;
+}
+
+.gray {
+  background-color: #e5e5e5;
+}
+
+.instructions {
+  font-family: "Lora", sans-serif;
+  line-height: 180%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.postInstructions {
+  font-family: "Lora", sans-serif;
+  line-height: 180%;
+  font-size: 1.4rem;
+  text-align: left;
+  margin-left: 7%;
+  margin-right: 5%;
+}
+.font-lora {
+  font-family: "Lora", sans-serif;
+}
+.button {
+  font-size: 25px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  padding: 10px 20px;
+  margin-bottom: 1%;
+}
+.button:hover {
+  background-color: #dcdcdc;
+}
+
+.medButton {
+  font-size: 15px;
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  padding: 6px 15px;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+.medButton:hover {
+  background-color: #dcdcdc;
+}
+.highlight {
+  background-color: yellow;
+}
+.survey {
+  text-align: center;
+  background-color: whitesmoke;
+  width: 70%;
+  margin: auto;
+  border-radius: 25px;
+}
+.followupQuestions,
+.followupQuestions2,
+.followupQuestions3,
+.followupQuestionsGreenScale,
+.algorithmAwareness,
+.algorithmKnowledge {
+  text-align: center;
+  background-color: whitesmoke;
+  width: 90%;
+  margin: auto;
+  border-radius: 25px;
+}
+.survey li:hover {
+  background-color: cornflowerblue;
+}
+.end {
+  background-color: aliceblue;
+  text-align: center;
+  font-size: 28px;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75%;
+  padding: 0px 100px;
+  border-radius: 15px;
+}
+.greenQuestion {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.q2A {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.q2B {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.q2C {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.q3 {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.demographics {
+  text-align: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+form {
+  text-align: center;
+  margin: 0 auto;
+}
+.bigTextbox {
+  border: 3px solid #949494;
+  width: 50%;
+  height: 40px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: "Lora", sans-serif;
+  border-radius: 10px;
+}
+.smallTextbox {
+  border: 3px solid #949494;
+  width: 20%;
+  height: 30px;
+  padding: 12px 7px;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: "Lora", sans-serif;
+  border-radius: 7px;
+}
+
+.textboxAlign {
+  text-align: left;
+  margin-left: 7%;
+}
+
+.container {
+  display: flex;
+  border: 1px solid #e5e5e5;
+}
+.box {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.leftBox {
+  flex: 0.8;
+  display: flex;
+  justify-content: right;
+  margin: 20px;
+  font-family: "Lora", sans-serif;
+}
+
+.rightBox {
+  flex: 0.8;
+  display: flex;
+  justify-content: left;
+  margin: 20px;
+  font-family: "Lora", sans-serif;
+}
+
+.radioMargin {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.radioLeftMargin {
+  margin-left: 30px;
+}
+input[type="radio"] {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+  transform: scale(1.5);
+}
+
+input[type="radio"].bigCheckbox {
+  /*-ms-transform: scale(4);
+  -webkit-transform: scale(4);
+  transform: scale(4);
+  height: 10px;
+  margin: auto;*/
+  width: 30px;
+  height: 30px;
+}
+
+.bigCheckbox {
+  transform: scale(5);
+  height: 10px;
+  margin: auto;
+}
+.smallCheckbox {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+.interestContainer {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.interestBox {
+  flex: 1;
+  display: flex;
+  justify-content: left;
+  margin-left: 70px;
+}
+
+.vacationContainer {
+  display: flex;
+}
+
+.vacationBox {
+  flex: 1;
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  align-items: center;
+  font-family: "Lora", sans-serif;
+  margin-right: 7%;
+  margin-left: 7%;
+}
+.typeTitle {
+  margin-right: 8px;
+  margin-left: 5px;
+  font-family: "Lora", sans-serif;
+}
+
+.labelMargin {
+  font-family: "Lora", sans-serif;
+  margin-right: 8px;
+  margin-left: 5px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+.personalAgentInstructions,
+.generalAgentInstructions,
+.controlAgentInstructions,
+.personalAgentInstructions2,
+.generalAgentInstructions2,
+.controlAgentInstructions2 {
+  background-color: aliceblue;
+  text-align: center;
+  font-size: 28px;
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 75%;
+  padding: 0px 100px;
+  border-radius: 15px;
+}
+.itinerary {
+  text-align: center;
+  background-color: whitesmoke;
+  width: 70%;
+  margin: auto;
+  border-radius: 25px;
+}
+.itineraryContainer {
+  display: flex;
+}
+
+.itineraryBox {
+  flex: 2.5;
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+.itinerarySuggested {
+  flex-grow: 1;
+  display: flex;
+  border: 1px solid #ccc;
+  justify-content: center;
+}
+.itineraryEco {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ccc;
+  flex: 0 0 30%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.suggested {
+  padding-top: 50px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.question {
+  font-family: "Lora", sans-serif;
+  position: relative;
+}
+.leftQuestion {
+  font-family: "Lora", sans-serif;
+  position: relative;
+  justify-content: left;
+  text-align: left;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-top: 5%;
+  margin-bottom: 0.5%;
+}
+
+.topMargin {
+  font-size: 10px;
+}
+
+.subquestion {
+  font-family: "Lora", sans-serif;
+  position: relative;
+}
+
+.leftSubquestion {
+  font-family: "Lora", sans-serif;
+  position: relative;
+  text-align: left;
+  margin-left: 7%;
+  margin-top: 5%;
+  margin-bottom: 0.5%;
+}
+.innerItineraryBox {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.itineraryTitle {
+  font-family: "Lora", sans-serif;
+  font-size: 25px;
+}
+
+.itineraryDescription {
+  font-family: "Lora", sans-serif;
+}
+
+.itineraryReview {
+  font-family: "Lora", sans-serif;
+}
+.itineraryDuration {
+  font-family: "Lora", sans-serif;
+}
+.loader {
+  border: 16px solid #5a5a5a;
+  border-top: 16px solid #a9a9a9;
+  border-radius: 50%;
+  width: 10%;
+  aspect-ratio: 1;
+  margin-left: 45%;
+  margin-right: 45%;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  margin-bottom: 5%;
+}
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg); /*for safari*/
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.agentHeader {
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 2px 0px;
+}
+
+.questionnaireContainer {
+  display: flex;
+  margin-left: 7%;
+  margin-right: 3%;
+  min-height: 75px;
+}
+
+.questionnaireQuestions {
+  display: flex;
+  flex: 3;
+  justify-content: left;
+  text-align: left;
+  align-items: center;
+  font-family: "Lora", sans-serif;
+  border: 1px solid #ccc;
+  padding-left: 20px;
+  line-height: 250%;
+}
+.questionnaireScale {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "Lora", sans-serif;
+  border: 1px solid #ccc;
+  line-height: 250%;
+}
+
+.ecoLogo {
+  color: green;
+  font-weight: 900;
+  font-size: 100%;
+}
+
+.greenBackground {
+  background-color: green;
+}
+
+.landingPage {
+  display: block;
+}
+
+.consentForm {
+  display: none;
+}
+
+.generalInstructions1,
+.generalInstructions2,
+.generalInstructions3 {
+  display: none;
+}
+
+.introduction {
+  display: none;
+}
+
+header {
+  display: none;
+  line-height: 300%;
+}
+.q1 {
+  display: none;
+}
+
+.greenQuestion {
+  display: none;
+}
+.q2A {
+  display: none;
+}
+
+.q2B {
+  display: none;
+}
+
+.q2C {
+  display: none;
+}
+
+.q3 {
+  display: none;
+}
+
+.q4 {
+  display: none;
+}
+
+.demographics {
+  display: none;
+}
+
+.submitPage,
+.loading {
+  display: none;
+}
+
+.personalAgentInstructions,
+.generalAgentInstructions,
+.controlAgentInstructions,
+.personalAgentInstructions2,
+.generalAgentInstructions2,
+.controlAgentInstructions2,
+.itinerary {
+  display: none;
+}
+.followupQuestions,
+.followupQuestions2,
+.followupQuestions3,
+.followupQuestionsGreenScale,
+.algorithmAwareness,
+.algorithmKnowledge {
+  display: none;
+}
+.end {
+  display: none;
+}
+
+li {
+  text-align: left;
+}
+
+.attentionCheck,
+.correctAttentionCheck,
+.incorrectAttentionCheck {
+  display: none;
+}
